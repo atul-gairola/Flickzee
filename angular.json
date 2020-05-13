@@ -21,11 +21,14 @@
             "aot": true,
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/assets/images/search.svg"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/fonts/customFonts.css"
             ],
+            
             "scripts": []
           },
           "configurations": {
@@ -119,6 +122,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "FlickZee"
+    }
+  },
+  "defaultProject": "FlickZee",
+  "cli": {
+    "analytics": "cd2a792e-be9e-499d-909c-ffb10cd7add6"
+  }
 }
